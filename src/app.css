@@ -1,0 +1,91 @@
+@import "@skeletonlabs/skeleton";
+@import "@skeletonlabs/skeleton-svelte";
+
+/* Custom Theme: Agent Zero */
+[data-theme="agent-zero"] {
+/* Primary Colors - Blue Neon */
+--color-primary-50: #e0f7ff;
+--color-primary-100: #b8ecff;
+--color-primary-200: #8cdfff;
+--color-primary-300: #5ed2ff;
+--color-primary-400: #32c6ff;
+--color-primary-500: #00d4ff;
+--color-primary-600: #00b8e8;
+--color-primary-700: #009cd1;
+--color-primary-800: #0080ba;
+--color-primary-900: #0064a3;
+
+/* Secondary Colors - Violet */
+--color-secondary-50: #f3e8ff;
+--color-secondary-100: #e1cffc;
+--color-secondary-200: #ceb6f9;
+--color-secondary-300: #ba9df6;
+--color-secondary-400: #a684f3;
+--color-secondary-500: #8b5cf6;
+--color-secondary-600: #7c3aed;
+--color-secondary-700: #6d28d9;
+--color-secondary-800: #5e21c6;
+--color-secondary-900: #4f1ab3;
+
+/* Background - Very Dark Gray */
+--color-background-50: #f5f5f7;
+--color-background-100: #e5e5e7;
+--color-background-200: #d4d4d7;
+--color-background-300: #a3a3a7;
+--color-background-400: #737377;
+--color-background-500: #525257;
+--color-background-600: #404047;
+--color-background-700: #262632;
+--color-background-800: #1a1a26;
+--color-background-900: #0a0a0f;
+--color-background-950: #050508;
+
+/* Surface - Dark Gray */
+--color-surface-50: #f5f5f7;
+--color-surface-100: #e5e5e7;
+--color-surface-200: #d4d4d7;
+--color-surface-300: #a3a3a7;
+--color-surface-400: #737377;
+--color-surface-500: #525257;
+--color-surface-600: #404047;
+--color-surface-700: #262632;
+--color-surface-800: #1a1a26;
+--color-surface-900: #121218;
+--color-surface-950: #0a0a12;
+
+/* Text Colors - Light White */
+--color-text-50: #fafafa;
+--color-text-100: #f5f5f5;
+--color-text-200: #e5e5e5;
+--color-text-300: #d4d4d4;
+--color-text-400: #a3a3a3;
+--color-text-500: #737373;
+--color-text-600: #525252;
+--color-text-700: #404040;
+--color-text-800: #262626;
+--color-text-900: #171717;
+
+/* Neutral Colors */
+--color-neutral-50: #fafafa;
+--color-neutral-100: #f5f5f5;
+--color-neutral-200: #e5e5e5;
+--color-neutral-300: #d4d4d4;
+--color-neutral-400: #a3a3a3;
+--color-neutral-500: #737373;
+--color-neutral-600: #525252;
+--color-neutral-700: #404040;
+--color-neutral-800: #262626;
+--color-neutral-900: #171717;
+}
+
+/* Apply theme to root */
+:root {
+--font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Custom global styles */
+body {
+font-family: var(--font-sans);
+background-color: var(--color-background-900);
+color: var(--color-text-100);
+}
